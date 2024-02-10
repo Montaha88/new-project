@@ -356,3 +356,47 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
+  /* card */
+  #pages {
+    padding: 60px 0 40px 0;
+  }
+  
+  #pages .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    height: 100%;
+  }
+  
+  #pages .box:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  #pages .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #pages .title a {
+    color: #111;
+  }
+  
+  #pages .box:hover .title a {
+    color: #1bb1dc;
+  }
+  
+  #pages .description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
