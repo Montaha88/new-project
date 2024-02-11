@@ -14,3 +14,15 @@ var swiper = new Swiper(".mySwiper", {
       swiper: swiper,
     },
   });
+
+  // 3
+  var swiper = new Swiper(".mySwiper2", {
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
