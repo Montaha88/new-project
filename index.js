@@ -1,4 +1,7 @@
-var swiper = new Swiper(".mySwiper", {
+
+// 1st slider
+
+var swiper = new Swiper(".mySwiper1", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
@@ -14,3 +17,5 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  
