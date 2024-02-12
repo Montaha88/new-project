@@ -190,7 +190,7 @@
 /* Clients Section
 --------------------------------*/
 #clients {
-   padding: 60px 0;
+   padding: 70px 0px;
 }
 
 #clients img {
@@ -221,10 +221,12 @@
 }
 .clients-slider .swiper-slide img{
     width: 130px;
-    height: 30px;
+    height: 35px;
     
 }
 .clients-slider .swiper-wrapper{
   height: 0px;
   background: none;
 }
+
+
