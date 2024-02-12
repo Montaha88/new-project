@@ -186,3 +186,45 @@
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #cda45e;
 }
+
+/* Clients Section
+--------------------------------*/
+#clients {
+   padding: 60px 0;
+}
+
+#clients img {
+  opacity: 0.5;
+  transition: 0.3s;
+
+}
+
+#clients img:hover {
+  opacity: 2;
+}
+
+#clients .swiper-pagination {
+  margin-top: 40px;
+  position: relative;
+}
+
+#clients .swiper-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height:8px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #f7f8f8;
+} 
+
+ #clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f0f4f5;
+}
+.clients-slider .swiper-slide img{
+    width: 130px;
+    height: 30px;
+    
+}
+.clients-slider .swiper-wrapper{
+  height: 0px;
+  background: none;
+}
